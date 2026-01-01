@@ -4,14 +4,14 @@ from datetime import datetime, timedelta
 import os
 
 # Path to the JSON file
-output_path = "watermap/src/main/resources/static/data/lake_erie_test.json"
+output_path = "watermap/src/main/resources/static/data/lake_carnegie_test.json"
 
 # Delete existing file if it exists
 if os.path.exists(output_path):
     os.remove(output_path)
 
 entries = []
-start_time = datetime(2025, 12, 27, 0, 0, 0)
+start_time = datetime(2026, 1, 1, 0, 0, 0)
 
 for i in range(500):
     entry_time = start_time + timedelta(minutes=30*i)
@@ -21,8 +21,8 @@ for i in range(500):
         "tds": random.randint(100, 1000),
         "turbidity_v": round(random.uniform(0.5, 10), 1),
         "ph": round(random.uniform(6.5, 10), 1),
-        "lat": round(random.uniform(41, 43.4), 5),
-        "lon": round(random.uniform(-84, -78.7), 5)
+        "lat": round(random.uniform(40.355, 40.385), 5),
+        "lon": round(random.uniform(-74.635, -74.605), 5)
     }
     entries.append(entry)
 
