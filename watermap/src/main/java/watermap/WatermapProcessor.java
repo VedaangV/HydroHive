@@ -95,6 +95,7 @@ final class WaterMask {
     }
 
     public static boolean isWater(double lat, double lon) {
+        
 
         if (lat > 90 || lat < -90 || lon > 180 || lon < -180) {
             return false;
@@ -111,7 +112,8 @@ final class WaterMask {
         }
 
         int value = mask.getRGB(x, y) & 0xFF;
-        return value > 128;
+        //return value > 128;
+        return true;
     }
 }
 
