@@ -112,8 +112,7 @@ final class WaterMask {
         }
 
         int value = mask.getRGB(x, y) & 0xFF;
-        //return value > 128;
-        return true;
+        return value > 128;
     }
 }
 
