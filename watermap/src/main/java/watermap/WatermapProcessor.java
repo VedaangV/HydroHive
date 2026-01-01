@@ -121,7 +121,7 @@ final class WaterMask {
 
 final class Grid {
 
-    static final int PIXEL_SIZE_METERS = 100;
+    static final int PIXEL_SIZE_METERS = 10;
     static final double MIN_WEIGHT = 0.01;
 
     HashMap<Long, Pixel> pixels = new HashMap<>();
