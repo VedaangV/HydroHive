@@ -13,7 +13,7 @@ if os.path.exists(output_path):
 entries = []
 start_time = datetime(2026, 1, 1, 0, 0, 0)
 
-for i in range(100):
+for i in range(10):
     entry_time = start_time + timedelta(minutes=30*i)
     entry = {
         "timestamp": entry_time.isoformat() + "Z",
