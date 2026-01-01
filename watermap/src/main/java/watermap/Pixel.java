@@ -40,6 +40,6 @@ public class Pixel {
 
         this.abi = Grid.getABI(this.pH, this.turbidity, this.tds, this.temp);
         weight += w;
-        weight = Math.max(1, weight);
+        weight = Math.min(1, weight);
     }
 }
