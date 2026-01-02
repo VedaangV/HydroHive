@@ -27,13 +27,13 @@ public class WatermapProcessor {
 
         ObjectMapper mapper = new ObjectMapper();
 
-        // Read union_lake_test.json from classpath
+        // Read lake_erie_test.json from classpath
         InputStream jsonStream = WatermapProcessor.class
                 .getClassLoader()
-                .getResourceAsStream("static/data/union_lake_test.json");
+                .getResourceAsStream("static/data/lake_erie_test.json");
 
         if (jsonStream == null) {
-            throw new IllegalArgumentException("union_lake_test.json not found in resources");
+            throw new IllegalArgumentException("lake_erie_test.json not found in resources");
         }
 
         Map<String, Object> root =
