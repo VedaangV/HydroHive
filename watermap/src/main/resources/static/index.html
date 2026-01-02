@@ -85,7 +85,7 @@ function addMarker(entry) {
     const weight = +entry.weight ?? 1;
 
     // 10m x 10m square
-    const half = 5; // meters
+    const half = 50; // meters
     const dLat = half / 111320;
     const dLon = half / (111320 * Math.cos(lat * Math.PI / 180));
 
