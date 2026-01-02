@@ -13,7 +13,7 @@ if os.path.exists(output_path):
 entries = []
 start_time = datetime(2026, 1, 1, 0, 0, 0)
 
-for i in range(100):
+for i in range(500):
     entry_time = start_time + timedelta(minutes=30*i)
     entry = {
         "timestamp": entry_time.isoformat() + "Z",
@@ -21,8 +21,8 @@ for i in range(100):
         "tds": random.randint(100, 1000),
         "turbidity_v": round(random.uniform(0.5, 10), 1),
         "ph": round(random.uniform(6.5, 10), 1),
-        "lat": round(random.uniform(41.855007, 42.563897), 5),
-        "lon": round(random.uniform(-81.542921, -80.958600), 5)
+        "lat": round(random.uniform(41.86, 42.55), 5),
+        "lon": round(random.uniform(-81.5, -80.97), 5)
     }
     entries.append(entry)
 
