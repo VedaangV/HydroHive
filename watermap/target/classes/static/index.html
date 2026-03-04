@@ -21,6 +21,47 @@
         }
 
         /* =======================
+           CONFIDENCE SLIDER UI
+        ======================= */
+        #confidence-control {
+            position: fixed;
+            top: 14px;
+            left: 14px;
+            z-index: 10000;
+            background: rgba(0, 0, 0, 0.75);
+            border: 1px solid rgba(158, 240, 255, 0.25);
+            border-radius: 12px;
+            padding: 10px 12px;
+            color: #9ef0ff;
+            font-family: system-ui, sans-serif;
+            width: 260px;
+            backdrop-filter: blur(6px);
+        }
+
+        #confidence-control .row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            margin-bottom: 6px;
+        }
+
+        #confidence-slider {
+            width: 100%;
+        }
+
+        #confidence-value {
+            font-variant-numeric: tabular-nums;
+            opacity: 0.95;
+        }
+
+        #visible-count {
+            margin-top: 6px;
+            font-size: 0.85rem;
+            opacity: 0.85;
+        }
+
+        /* =======================
            LOADING OVERLAY
         ======================= */
         #loading-overlay {
@@ -67,6 +108,23 @@
 </head>
 <body>
 
+<!-- CONFIDENCE FILTER -->
+<div id="confidence-control">
+    <div class="row">
+        <div><b>Confidence filter</b></div>
+        <div id="confidence-value">≥ 0.00</div>
+    </div>
+    <input
+        id="confidence-slider"
+        type="range"
+        min="0"
+        max="1"
+        step="0.01"
+        value="0"
+    />
+    <div id="visible-count">Showing: 0 / 0</div>
+</div>
+
 <!-- LOADING SCREEN -->
 <div id="loading-overlay">
     <div class="loader">
@@ -93,6 +151,15 @@ L.tileLayer(
         attribution: '© OpenStreetMap contributors © CARTO'
     }
 ).addTo(map);
+
+/* =======================
+   STATE
+======================= */
+let minConfidence = 0.0;
+
+// Store all rectangles so we can filter without re-fetching
+// Each item: { rect: L.Rectangle, conf: number, weight: number }
+const allRects = [];
 
 /* =======================
    UTILITIES
@@ -130,6 +197,38 @@ function abiToColor(abi) {
 }
 
 /* =======================
+   VISIBILITY TOGGLE
+======================= */
+function setRectVisible(rect, visible, weight) {
+    // Keep them on the map but make them non-interactive and invisible when filtered out.
+    rect.setStyle({
+        opacity: visible ? 1 : 0,
+        fillOpacity: visible ? weight : 0
+    });
+
+    // Prevent clicking hidden rectangles (Leaflet SVG)
+    const el = rect.getElement && rect.getElement();
+    if (el) el.style.pointerEvents = visible ? 'auto' : 'none';
+}
+
+/* =======================
+   APPLY FILTER
+======================= */
+function applyConfidenceFilter() {
+    let shown = 0;
+
+    for (const item of allRects) {
+        const visible = item.conf >= minConfidence;
+        setRectVisible(item.rect, visible, item.weight);
+        if (visible) shown++;
+    }
+
+    // Update UI count
+    document.getElementById('visible-count').textContent =
+        `Showing: ${shown} / ${allRects.length}`;
+}
+
+/* =======================
    ADD MARKER
 ======================= */
 function addMarker(entry) {
@@ -138,7 +237,10 @@ function addMarker(entry) {
 
     const abi = +entry.abi ?? getABI(entry);
     const color = abiToColor(abi);
-    const weight = +entry.weight ?? 1;
+
+    // confidence / weight (your dataset uses weight as confidence)
+    const conf = +entry.weight ?? 1;
+    const weight = conf; // keep your original behavior: opacity scales with confidence
 
     // 10m x 10m square
     const half = 50; // meters
@@ -150,9 +252,9 @@ function addMarker(entry) {
         [lat + dLat, lon + dLon]
     ];
 
-    L.rectangle(bounds, {
+    const rect = L.rectangle(bounds, {
         color: color,
-        weight: weight,
+        weight: 1,
         fillColor: color,
         fillOpacity: weight
     })
@@ -161,13 +263,19 @@ function addMarker(entry) {
         <b>Latitude:</b> ${lat}<br>
         <b>Longitude:</b> ${lon}<br>
         <b>ABI:</b> ${abi.toFixed(2)}<br>
-        <b>Temperature:</b> ${+entry.temp} °C<br>
+        <b>Temperature:</b> ${+(entry.temperature_c ?? entry.temp)} °C<br>
         <b>TDS:</b> ${+entry.tds} ppm<br>
         <b>Turbidity:</b> ${+entry.turbidity}<br>
         <b>pH:</b> ${+entry.pH}<br>
         <b>Timestamp:</b> ${entry.timestamp}<br>
-        <b>Confidence:</b> ${+entry.weight}
+        <b>Confidence:</b> ${conf}
     `);
+
+    // Store for filtering
+    allRects.push({ rect, conf, weight });
+
+    // Apply current filter immediately (so if slider > 0, new points respect it)
+    setRectVisible(rect, conf >= minConfidence, weight);
 }
 
 /* =======================
@@ -194,19 +302,36 @@ async function loadPixels() {
             }
         }
 
+        // Update initial count after load
+        applyConfidenceFilter();
+
     } catch (err) {
         console.error('Error loading pixels:', err);
 
     } finally {
-        // Fade out loader
         overlay.classList.add('hidden');
-
-        // Remove after animation
         setTimeout(() => overlay.remove(), 500);
     }
 }
 
-window.onload = loadPixels;
+/* =======================
+   SLIDER HOOKUP
+======================= */
+const slider = document.getElementById('confidence-slider');
+const valueLabel = document.getElementById('confidence-value');
+
+function updateSliderUI() {
+    minConfidence = +slider.value;
+    valueLabel.textContent = `≥ ${minConfidence.toFixed(2)}`;
+    applyConfidenceFilter();
+}
+
+slider.addEventListener('input', updateSliderUI);
+
+window.onload = () => {
+    updateSliderUI(); // set label + default filter
+    loadPixels();
+};
 </script>
 
 </body>
