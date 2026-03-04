@@ -177,11 +177,7 @@ async function loadPixels() {
     const overlay = document.getElementById('loading-overlay');
 
     try {
-        const backendURL = 'https://conradchallenge-production.up.railway.app';
-
-        const dataResp = await fetch(
-            `${backendURL}/data/pixels.json?t=${Date.now()}`
-        );
+        const dataResp = await fetch(`/data/pixels.json?t=${Date.now()}`);
 
         if (!dataResp.ok) {
             throw new Error('Failed to fetch pixels.json');
