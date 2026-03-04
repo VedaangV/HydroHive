@@ -30,10 +30,10 @@ public class WatermapProcessor {
         // Read lake_erie_test.json from classpath
         InputStream jsonStream = WatermapProcessor.class
                 .getClassLoader()
-                .getResourceAsStream("static/data/lake_hopatcong_test.json");
+                .getResourceAsStream("static/data/lake_okeechobee_test.json");
 
         if (jsonStream == null) {
-            throw new IllegalArgumentException("lake_hopatcong_test.json not found in resources");
+            throw new IllegalArgumentException("lake_okeechobee_test.json not found in resources");
         }
 
         Map<String, Object> root =

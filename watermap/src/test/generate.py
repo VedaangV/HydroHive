@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 import os
 
 # Path to the JSON file
-output_path = "watermap/src/main/resources/static/data/lake_hopatcong_test.json"
+output_path = "watermap/src/main/resources/static/data/lake_okeechobee_test.json"
 
 # Delete existing file if it exists
 if os.path.exists(output_path):
@@ -21,8 +21,8 @@ for i in range(100):
         "tds": random.randint(100, 1000),
         "turbidity_v": round(random.uniform(0.5, 10), 1),
         "ph": round(random.uniform(6.5, 10), 1),
-        "lat": round(random.uniform(40.9, 40.99), 5),
-        "lon": round(random.uniform(-74.67, -74.6), 5)
+        "lat": round(random.uniform(26.6, 27.15), 5),
+        "lon": round(random.uniform(-81.15, -80.55), 5)
     }
     entries.append(entry)
 
