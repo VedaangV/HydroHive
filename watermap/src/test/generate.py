@@ -21,8 +21,8 @@ for i in range(100):
         "tds": random.randint(100, 1000),
         "turbidity_v": round(random.uniform(0.5, 10), 1),
         "ph": round(random.uniform(6.5, 10), 1),
-        "lat": round(random.uniform(26.6, 27.15), 5),
-        "lon": round(random.uniform(-81.15, -80.55), 5)
+        "lat": round(random.uniform(26.75, 27), 5),
+        "lon": round(random.uniform(-81, -80.7), 5)
     }
     entries.append(entry)
 
