@@ -2,903 +2,903 @@
   "entries": [
     {
       "timestamp": "2026-01-01T00:00:00Z",
-      "temperature_c": 25.5,
-      "tds": 990,
-      "turbidity_v": 3.3,
-      "ph": 9.7,
-      "lat": 26.84053,
-      "lon": -80.77184
+      "temperature_c": 15.5,
+      "tds": 706,
+      "turbidity_v": 9.2,
+      "ph": 8.0,
+      "lat": 26.92743,
+      "lon": -80.89308
     },
     {
       "timestamp": "2026-01-01T00:30:00Z",
-      "temperature_c": 19.9,
-      "tds": 816,
-      "turbidity_v": 5.9,
-      "ph": 7.6,
-      "lat": 26.80506,
-      "lon": -80.72563
+      "temperature_c": 18.4,
+      "tds": 755,
+      "turbidity_v": 7.9,
+      "ph": 8.4,
+      "lat": 26.94726,
+      "lon": -80.70312
     },
     {
       "timestamp": "2026-01-01T01:00:00Z",
-      "temperature_c": 24.1,
-      "tds": 698,
-      "turbidity_v": 2.3,
-      "ph": 9.8,
-      "lat": 26.9487,
-      "lon": -80.73187
+      "temperature_c": 28.4,
+      "tds": 240,
+      "turbidity_v": 6.5,
+      "ph": 9.4,
+      "lat": 26.85053,
+      "lon": -80.959
     },
     {
       "timestamp": "2026-01-01T01:30:00Z",
-      "temperature_c": 15.0,
-      "tds": 187,
-      "turbidity_v": 8.9,
-      "ph": 8.4,
-      "lat": 26.90977,
-      "lon": -80.72785
+      "temperature_c": 9.3,
+      "tds": 956,
+      "turbidity_v": 7.8,
+      "ph": 9.1,
+      "lat": 26.96933,
+      "lon": -80.77657
     },
     {
       "timestamp": "2026-01-01T02:00:00Z",
-      "temperature_c": 19.1,
-      "tds": 686,
-      "turbidity_v": 5.9,
-      "ph": 9.7,
-      "lat": 26.98438,
-      "lon": -80.74251
+      "temperature_c": 11.8,
+      "tds": 977,
+      "turbidity_v": 1.4,
+      "ph": 8.7,
+      "lat": 26.85019,
+      "lon": -80.89654
     },
     {
       "timestamp": "2026-01-01T02:30:00Z",
-      "temperature_c": 6.0,
-      "tds": 151,
-      "turbidity_v": 3.4,
-      "ph": 9.1,
-      "lat": 26.89949,
-      "lon": -80.83834
+      "temperature_c": 24.1,
+      "tds": 806,
+      "turbidity_v": 7.4,
+      "ph": 9.8,
+      "lat": 26.81273,
+      "lon": -80.8581
     },
     {
       "timestamp": "2026-01-01T03:00:00Z",
-      "temperature_c": 21.9,
-      "tds": 171,
-      "turbidity_v": 8.2,
-      "ph": 9.8,
-      "lat": 26.89265,
-      "lon": -80.92125
+      "temperature_c": 11.8,
+      "tds": 372,
+      "turbidity_v": 1.9,
+      "ph": 8.0,
+      "lat": 26.98175,
+      "lon": -80.69352
     },
     {
       "timestamp": "2026-01-01T03:30:00Z",
-      "temperature_c": 11.2,
-      "tds": 956,
-      "turbidity_v": 2.4,
-      "ph": 7.2,
-      "lat": 26.84539,
-      "lon": -80.8384
+      "temperature_c": 27.3,
+      "tds": 262,
+      "turbidity_v": 3.8,
+      "ph": 8.0,
+      "lat": 26.82767,
+      "lon": -81.06802
     },
     {
       "timestamp": "2026-01-01T04:00:00Z",
-      "temperature_c": 16.5,
-      "tds": 131,
-      "turbidity_v": 3.0,
-      "ph": 9.5,
-      "lat": 26.90034,
-      "lon": -80.75476
+      "temperature_c": 8.0,
+      "tds": 342,
+      "turbidity_v": 1.0,
+      "ph": 9.4,
+      "lat": 26.8244,
+      "lon": -80.85496
     },
     {
       "timestamp": "2026-01-01T04:30:00Z",
-      "temperature_c": 13.1,
-      "tds": 632,
-      "turbidity_v": 7.0,
+      "temperature_c": 18.7,
+      "tds": 880,
+      "turbidity_v": 9.9,
       "ph": 9.2,
-      "lat": 26.78455,
-      "lon": -80.90401
+      "lat": 26.75015,
+      "lon": -80.71443
     },
     {
       "timestamp": "2026-01-01T05:00:00Z",
-      "temperature_c": 22.3,
-      "tds": 814,
-      "turbidity_v": 5.3,
-      "ph": 8.4,
-      "lat": 26.7596,
-      "lon": -80.76888
+      "temperature_c": 26.1,
+      "tds": 669,
+      "turbidity_v": 9.3,
+      "ph": 9.9,
+      "lat": 26.92395,
+      "lon": -81.0848
     },
     {
       "timestamp": "2026-01-01T05:30:00Z",
-      "temperature_c": 15.6,
-      "tds": 600,
-      "turbidity_v": 3.4,
-      "ph": 8.0,
-      "lat": 26.7721,
-      "lon": -80.82831
+      "temperature_c": 11.0,
+      "tds": 463,
+      "turbidity_v": 6.2,
+      "ph": 7.7,
+      "lat": 26.94287,
+      "lon": -80.96771
     },
     {
       "timestamp": "2026-01-01T06:00:00Z",
-      "temperature_c": 9.3,
-      "tds": 482,
-      "turbidity_v": 3.2,
-      "ph": 9.0,
-      "lat": 26.95343,
-      "lon": -80.80065
+      "temperature_c": 24.2,
+      "tds": 821,
+      "turbidity_v": 3.0,
+      "ph": 7.9,
+      "lat": 26.82645,
+      "lon": -81.03111
     },
     {
       "timestamp": "2026-01-01T06:30:00Z",
-      "temperature_c": 7.6,
-      "tds": 705,
-      "turbidity_v": 2.1,
-      "ph": 7.8,
-      "lat": 26.95152,
-      "lon": -80.87012
+      "temperature_c": 10.3,
+      "tds": 172,
+      "turbidity_v": 9.4,
+      "ph": 8.4,
+      "lat": 26.86624,
+      "lon": -80.83555
     },
     {
       "timestamp": "2026-01-01T07:00:00Z",
-      "temperature_c": 14.1,
-      "tds": 567,
-      "turbidity_v": 8.9,
-      "ph": 6.7,
-      "lat": 26.87859,
-      "lon": -80.73233
+      "temperature_c": 18.9,
+      "tds": 970,
+      "turbidity_v": 9.2,
+      "ph": 7.2,
+      "lat": 26.84186,
+      "lon": -80.98704
     },
     {
       "timestamp": "2026-01-01T07:30:00Z",
-      "temperature_c": 16.2,
-      "tds": 948,
+      "temperature_c": 19.4,
+      "tds": 914,
       "turbidity_v": 9.0,
-      "ph": 9.4,
-      "lat": 26.90687,
-      "lon": -80.79934
+      "ph": 7.6,
+      "lat": 26.90157,
+      "lon": -81.02668
     },
     {
       "timestamp": "2026-01-01T08:00:00Z",
-      "temperature_c": 19.7,
-      "tds": 681,
-      "turbidity_v": 7.1,
-      "ph": 8.4,
-      "lat": 26.75312,
-      "lon": -80.93616
+      "temperature_c": 9.7,
+      "tds": 994,
+      "turbidity_v": 2.5,
+      "ph": 9.2,
+      "lat": 26.90828,
+      "lon": -81.05262
     },
     {
       "timestamp": "2026-01-01T08:30:00Z",
-      "temperature_c": 9.2,
-      "tds": 527,
-      "turbidity_v": 9.6,
-      "ph": 7.4,
-      "lat": 26.95466,
-      "lon": -80.95816
+      "temperature_c": 13.1,
+      "tds": 351,
+      "turbidity_v": 0.5,
+      "ph": 7.8,
+      "lat": 26.8205,
+      "lon": -80.89834
     },
     {
       "timestamp": "2026-01-01T09:00:00Z",
-      "temperature_c": 6.6,
-      "tds": 762,
-      "turbidity_v": 5.0,
-      "ph": 7.0,
-      "lat": 26.93485,
-      "lon": -80.88726
+      "temperature_c": 23.2,
+      "tds": 945,
+      "turbidity_v": 4.4,
+      "ph": 9.5,
+      "lat": 26.81841,
+      "lon": -80.91196
     },
     {
       "timestamp": "2026-01-01T09:30:00Z",
-      "temperature_c": 20.8,
-      "tds": 822,
-      "turbidity_v": 9.1,
-      "ph": 8.0,
-      "lat": 26.9993,
-      "lon": -80.86162
+      "temperature_c": 29.4,
+      "tds": 229,
+      "turbidity_v": 3.4,
+      "ph": 6.5,
+      "lat": 26.96669,
+      "lon": -80.88356
     },
     {
       "timestamp": "2026-01-01T10:00:00Z",
-      "temperature_c": 6.7,
-      "tds": 902,
-      "turbidity_v": 2.7,
+      "temperature_c": 27.1,
+      "tds": 770,
+      "turbidity_v": 9.5,
       "ph": 6.7,
-      "lat": 26.79193,
-      "lon": -80.76363
+      "lat": 26.82184,
+      "lon": -80.9144
     },
     {
       "timestamp": "2026-01-01T10:30:00Z",
-      "temperature_c": 16.7,
-      "tds": 564,
-      "turbidity_v": 2.9,
-      "ph": 7.5,
-      "lat": 26.829,
-      "lon": -80.98639
+      "temperature_c": 29.0,
+      "tds": 372,
+      "turbidity_v": 9.6,
+      "ph": 7.8,
+      "lat": 26.93341,
+      "lon": -80.66752
     },
     {
       "timestamp": "2026-01-01T11:00:00Z",
-      "temperature_c": 17.0,
-      "tds": 652,
-      "turbidity_v": 6.4,
-      "ph": 6.7,
-      "lat": 26.75084,
-      "lon": -80.90231
+      "temperature_c": 25.2,
+      "tds": 661,
+      "turbidity_v": 8.7,
+      "ph": 8.8,
+      "lat": 26.89135,
+      "lon": -80.7079
     },
     {
       "timestamp": "2026-01-01T11:30:00Z",
-      "temperature_c": 22.8,
-      "tds": 385,
-      "turbidity_v": 7.0,
-      "ph": 9.2,
-      "lat": 26.79733,
-      "lon": -80.85898
+      "temperature_c": 25.4,
+      "tds": 325,
+      "turbidity_v": 2.5,
+      "ph": 7.0,
+      "lat": 26.82271,
+      "lon": -80.60673
     },
     {
       "timestamp": "2026-01-01T12:00:00Z",
-      "temperature_c": 21.5,
-      "tds": 213,
-      "turbidity_v": 4.3,
-      "ph": 9.1,
-      "lat": 26.85661,
-      "lon": -80.80861
+      "temperature_c": 17.6,
+      "tds": 653,
+      "turbidity_v": 4.8,
+      "ph": 7.5,
+      "lat": 26.76137,
+      "lon": -80.88429
     },
     {
       "timestamp": "2026-01-01T12:30:00Z",
-      "temperature_c": 9.9,
-      "tds": 448,
-      "turbidity_v": 6.6,
-      "ph": 9.8,
-      "lat": 26.91045,
-      "lon": -80.91923
+      "temperature_c": 6.8,
+      "tds": 304,
+      "turbidity_v": 3.9,
+      "ph": 8.1,
+      "lat": 26.75248,
+      "lon": -81.08219
     },
     {
       "timestamp": "2026-01-01T13:00:00Z",
-      "temperature_c": 27.2,
-      "tds": 873,
-      "turbidity_v": 5.5,
-      "ph": 7.1,
-      "lat": 26.78606,
-      "lon": -80.86539
+      "temperature_c": 26.0,
+      "tds": 448,
+      "turbidity_v": 3.6,
+      "ph": 7.0,
+      "lat": 26.79038,
+      "lon": -80.68657
     },
     {
       "timestamp": "2026-01-01T13:30:00Z",
-      "temperature_c": 13.2,
-      "tds": 430,
-      "turbidity_v": 1.6,
-      "ph": 7.7,
-      "lat": 26.80195,
-      "lon": -80.94879
+      "temperature_c": 10.2,
+      "tds": 117,
+      "turbidity_v": 1.4,
+      "ph": 9.2,
+      "lat": 26.79345,
+      "lon": -80.99377
     },
     {
       "timestamp": "2026-01-01T14:00:00Z",
-      "temperature_c": 12.6,
-      "tds": 948,
-      "turbidity_v": 9.4,
-      "ph": 7.8,
-      "lat": 26.98554,
-      "lon": -80.83324
+      "temperature_c": 26.4,
+      "tds": 912,
+      "turbidity_v": 9.8,
+      "ph": 8.3,
+      "lat": 26.97334,
+      "lon": -80.76021
     },
     {
       "timestamp": "2026-01-01T14:30:00Z",
-      "temperature_c": 28.0,
-      "tds": 213,
-      "turbidity_v": 7.4,
-      "ph": 7.5,
-      "lat": 26.9004,
-      "lon": -80.81791
+      "temperature_c": 26.8,
+      "tds": 337,
+      "turbidity_v": 5.3,
+      "ph": 7.1,
+      "lat": 26.93028,
+      "lon": -80.6396
     },
     {
       "timestamp": "2026-01-01T15:00:00Z",
-      "temperature_c": 15.6,
-      "tds": 533,
-      "turbidity_v": 3.8,
-      "ph": 7.8,
-      "lat": 26.79733,
-      "lon": -80.96691
+      "temperature_c": 5.9,
+      "tds": 737,
+      "turbidity_v": 10.0,
+      "ph": 8.2,
+      "lat": 26.75263,
+      "lon": -80.8812
     },
     {
       "timestamp": "2026-01-01T15:30:00Z",
-      "temperature_c": 9.6,
-      "tds": 828,
-      "turbidity_v": 8.7,
-      "ph": 6.5,
-      "lat": 26.80786,
-      "lon": -80.75414
+      "temperature_c": 5.9,
+      "tds": 911,
+      "turbidity_v": 6.9,
+      "ph": 9.8,
+      "lat": 26.91212,
+      "lon": -80.95009
     },
     {
       "timestamp": "2026-01-01T16:00:00Z",
-      "temperature_c": 23.2,
-      "tds": 132,
-      "turbidity_v": 3.3,
-      "ph": 7.4,
-      "lat": 26.93064,
-      "lon": -80.89313
+      "temperature_c": 8.0,
+      "tds": 360,
+      "turbidity_v": 6.4,
+      "ph": 9.4,
+      "lat": 26.87336,
+      "lon": -80.61178
     },
     {
       "timestamp": "2026-01-01T16:30:00Z",
-      "temperature_c": 7.2,
-      "tds": 955,
-      "turbidity_v": 2.9,
-      "ph": 9.3,
-      "lat": 26.82589,
-      "lon": -80.79093
+      "temperature_c": 24.1,
+      "tds": 397,
+      "turbidity_v": 2.3,
+      "ph": 9.9,
+      "lat": 26.85577,
+      "lon": -81.01149
     },
     {
       "timestamp": "2026-01-01T17:00:00Z",
-      "temperature_c": 5.2,
-      "tds": 952,
-      "turbidity_v": 2.5,
-      "ph": 9.1,
-      "lat": 26.94266,
-      "lon": -80.73752
+      "temperature_c": 29.3,
+      "tds": 913,
+      "turbidity_v": 8.2,
+      "ph": 7.6,
+      "lat": 26.84356,
+      "lon": -80.75034
     },
     {
       "timestamp": "2026-01-01T17:30:00Z",
-      "temperature_c": 13.1,
-      "tds": 489,
-      "turbidity_v": 4.2,
-      "ph": 7.8,
-      "lat": 26.87583,
-      "lon": -80.82368
+      "temperature_c": 17.2,
+      "tds": 788,
+      "turbidity_v": 1.9,
+      "ph": 6.6,
+      "lat": 26.84395,
+      "lon": -80.83363
     },
     {
       "timestamp": "2026-01-01T18:00:00Z",
-      "temperature_c": 21.4,
-      "tds": 736,
-      "turbidity_v": 5.5,
-      "ph": 7.5,
-      "lat": 26.92963,
-      "lon": -80.94302
+      "temperature_c": 28.1,
+      "tds": 524,
+      "turbidity_v": 0.7,
+      "ph": 6.7,
+      "lat": 26.76267,
+      "lon": -80.72994
     },
     {
       "timestamp": "2026-01-01T18:30:00Z",
-      "temperature_c": 11.1,
-      "tds": 585,
-      "turbidity_v": 6.5,
-      "ph": 9.7,
-      "lat": 26.76119,
-      "lon": -80.86591
+      "temperature_c": 10.5,
+      "tds": 764,
+      "turbidity_v": 1.9,
+      "ph": 9.5,
+      "lat": 26.98255,
+      "lon": -80.62454
     },
     {
       "timestamp": "2026-01-01T19:00:00Z",
-      "temperature_c": 29.8,
-      "tds": 936,
-      "turbidity_v": 4.4,
-      "ph": 6.7,
-      "lat": 26.88956,
-      "lon": -80.77637
+      "temperature_c": 13.6,
+      "tds": 467,
+      "turbidity_v": 9.9,
+      "ph": 10.0,
+      "lat": 26.80642,
+      "lon": -81.02909
     },
     {
       "timestamp": "2026-01-01T19:30:00Z",
-      "temperature_c": 13.0,
-      "tds": 828,
-      "turbidity_v": 1.9,
-      "ph": 7.1,
-      "lat": 26.8202,
-      "lon": -80.81708
+      "temperature_c": 5.5,
+      "tds": 672,
+      "turbidity_v": 3.8,
+      "ph": 6.5,
+      "lat": 26.7782,
+      "lon": -80.98358
     },
     {
       "timestamp": "2026-01-01T20:00:00Z",
-      "temperature_c": 24.2,
-      "tds": 497,
-      "turbidity_v": 6.9,
-      "ph": 8.8,
-      "lat": 26.79606,
-      "lon": -80.70947
+      "temperature_c": 28.1,
+      "tds": 666,
+      "turbidity_v": 7.0,
+      "ph": 6.5,
+      "lat": 26.77499,
+      "lon": -80.60823
     },
     {
       "timestamp": "2026-01-01T20:30:00Z",
-      "temperature_c": 10.6,
-      "tds": 222,
-      "turbidity_v": 8.0,
-      "ph": 6.9,
-      "lat": 26.90334,
-      "lon": -80.72336
+      "temperature_c": 23.5,
+      "tds": 765,
+      "turbidity_v": 8.9,
+      "ph": 8.6,
+      "lat": 26.8005,
+      "lon": -80.61109
     },
     {
       "timestamp": "2026-01-01T21:00:00Z",
-      "temperature_c": 28.9,
-      "tds": 695,
-      "turbidity_v": 2.3,
-      "ph": 9.3,
-      "lat": 26.79229,
-      "lon": -80.84994
+      "temperature_c": 25.9,
+      "tds": 761,
+      "turbidity_v": 0.9,
+      "ph": 8.8,
+      "lat": 26.86592,
+      "lon": -80.64107
     },
     {
       "timestamp": "2026-01-01T21:30:00Z",
-      "temperature_c": 11.0,
-      "tds": 491,
-      "turbidity_v": 4.4,
-      "ph": 6.7,
-      "lat": 26.8547,
-      "lon": -80.98629
+      "temperature_c": 29.6,
+      "tds": 485,
+      "turbidity_v": 1.3,
+      "ph": 8.1,
+      "lat": 26.92073,
+      "lon": -80.8527
     },
     {
       "timestamp": "2026-01-01T22:00:00Z",
-      "temperature_c": 16.4,
-      "tds": 486,
-      "turbidity_v": 8.7,
-      "ph": 7.6,
-      "lat": 26.97539,
-      "lon": -80.86483
+      "temperature_c": 8.6,
+      "tds": 329,
+      "turbidity_v": 8.5,
+      "ph": 7.2,
+      "lat": 26.87982,
+      "lon": -80.96786
     },
     {
       "timestamp": "2026-01-01T22:30:00Z",
-      "temperature_c": 17.2,
-      "tds": 641,
-      "turbidity_v": 8.5,
-      "ph": 9.6,
-      "lat": 26.81626,
-      "lon": -80.93513
+      "temperature_c": 15.2,
+      "tds": 211,
+      "turbidity_v": 8.7,
+      "ph": 7.4,
+      "lat": 26.77402,
+      "lon": -80.70892
     },
     {
       "timestamp": "2026-01-01T23:00:00Z",
-      "temperature_c": 28.0,
-      "tds": 215,
-      "turbidity_v": 5.1,
-      "ph": 8.7,
-      "lat": 26.86425,
-      "lon": -80.72493
+      "temperature_c": 27.3,
+      "tds": 196,
+      "turbidity_v": 3.5,
+      "ph": 7.2,
+      "lat": 26.79337,
+      "lon": -80.81923
     },
     {
       "timestamp": "2026-01-01T23:30:00Z",
-      "temperature_c": 19.7,
-      "tds": 848,
-      "turbidity_v": 4.8,
-      "ph": 8.8,
-      "lat": 26.89662,
-      "lon": -80.94452
+      "temperature_c": 8.7,
+      "tds": 293,
+      "turbidity_v": 5.2,
+      "ph": 7.3,
+      "lat": 26.88561,
+      "lon": -80.93556
     },
     {
       "timestamp": "2026-01-02T00:00:00Z",
-      "temperature_c": 28.1,
-      "tds": 807,
-      "turbidity_v": 9.7,
-      "ph": 8.7,
-      "lat": 26.80736,
-      "lon": -80.701
+      "temperature_c": 10.3,
+      "tds": 480,
+      "turbidity_v": 5.2,
+      "ph": 9.8,
+      "lat": 26.79998,
+      "lon": -80.83208
     },
     {
       "timestamp": "2026-01-02T00:30:00Z",
-      "temperature_c": 10.0,
-      "tds": 238,
-      "turbidity_v": 0.8,
-      "ph": 9.1,
-      "lat": 26.99362,
-      "lon": -80.9
+      "temperature_c": 28.4,
+      "tds": 219,
+      "turbidity_v": 5.6,
+      "ph": 9.2,
+      "lat": 26.82475,
+      "lon": -80.72595
     },
     {
       "timestamp": "2026-01-02T01:00:00Z",
-      "temperature_c": 9.2,
-      "tds": 997,
-      "turbidity_v": 1.9,
-      "ph": 8.7,
-      "lat": 26.84359,
-      "lon": -80.73817
+      "temperature_c": 8.6,
+      "tds": 414,
+      "turbidity_v": 4.6,
+      "ph": 7.4,
+      "lat": 26.82317,
+      "lon": -80.64791
     },
     {
       "timestamp": "2026-01-02T01:30:00Z",
-      "temperature_c": 20.5,
-      "tds": 416,
-      "turbidity_v": 7.6,
-      "ph": 9.5,
-      "lat": 26.88929,
-      "lon": -80.71356
+      "temperature_c": 23.3,
+      "tds": 879,
+      "turbidity_v": 8.1,
+      "ph": 8.8,
+      "lat": 26.79478,
+      "lon": -80.85898
     },
     {
       "timestamp": "2026-01-02T02:00:00Z",
-      "temperature_c": 17.7,
-      "tds": 708,
-      "turbidity_v": 7.7,
-      "ph": 6.7,
-      "lat": 26.90248,
-      "lon": -80.9429
+      "temperature_c": 8.3,
+      "tds": 391,
+      "turbidity_v": 7.4,
+      "ph": 9.9,
+      "lat": 26.98974,
+      "lon": -80.74407
     },
     {
       "timestamp": "2026-01-02T02:30:00Z",
-      "temperature_c": 22.0,
-      "tds": 829,
-      "turbidity_v": 2.4,
-      "ph": 9.0,
-      "lat": 26.82372,
-      "lon": -80.85043
+      "temperature_c": 10.0,
+      "tds": 839,
+      "turbidity_v": 4.3,
+      "ph": 7.1,
+      "lat": 26.95394,
+      "lon": -80.83546
     },
     {
       "timestamp": "2026-01-02T03:00:00Z",
-      "temperature_c": 23.5,
-      "tds": 879,
-      "turbidity_v": 1.3,
-      "ph": 8.8,
-      "lat": 26.85436,
-      "lon": -80.82749
+      "temperature_c": 14.8,
+      "tds": 760,
+      "turbidity_v": 1.6,
+      "ph": 9.0,
+      "lat": 26.8321,
+      "lon": -80.70906
     },
     {
       "timestamp": "2026-01-02T03:30:00Z",
-      "temperature_c": 26.0,
-      "tds": 867,
-      "turbidity_v": 9.9,
-      "ph": 9.7,
-      "lat": 26.89379,
-      "lon": -80.88208
+      "temperature_c": 17.2,
+      "tds": 650,
+      "turbidity_v": 4.3,
+      "ph": 8.5,
+      "lat": 26.97143,
+      "lon": -80.80819
     },
     {
       "timestamp": "2026-01-02T04:00:00Z",
-      "temperature_c": 17.2,
-      "tds": 778,
-      "turbidity_v": 7.7,
-      "ph": 8.4,
-      "lat": 26.88672,
-      "lon": -80.95485
+      "temperature_c": 25.8,
+      "tds": 834,
+      "turbidity_v": 9.9,
+      "ph": 7.1,
+      "lat": 26.78058,
+      "lon": -81.06595
     },
     {
       "timestamp": "2026-01-02T04:30:00Z",
-      "temperature_c": 5.5,
-      "tds": 220,
-      "turbidity_v": 6.0,
-      "ph": 9.6,
-      "lat": 26.96147,
-      "lon": -80.88327
+      "temperature_c": 26.6,
+      "tds": 992,
+      "turbidity_v": 7.3,
+      "ph": 7.1,
+      "lat": 26.99946,
+      "lon": -81.03077
     },
     {
       "timestamp": "2026-01-02T05:00:00Z",
-      "temperature_c": 8.4,
-      "tds": 156,
-      "turbidity_v": 0.5,
-      "ph": 10.0,
-      "lat": 26.92645,
-      "lon": -80.9416
+      "temperature_c": 6.7,
+      "tds": 333,
+      "turbidity_v": 6.1,
+      "ph": 7.1,
+      "lat": 26.80177,
+      "lon": -81.02622
     },
     {
       "timestamp": "2026-01-02T05:30:00Z",
-      "temperature_c": 8.8,
-      "tds": 273,
-      "turbidity_v": 0.5,
-      "ph": 7.1,
-      "lat": 26.9297,
-      "lon": -80.92959
+      "temperature_c": 8.3,
+      "tds": 282,
+      "turbidity_v": 7.4,
+      "ph": 6.9,
+      "lat": 26.79669,
+      "lon": -80.71388
     },
     {
       "timestamp": "2026-01-02T06:00:00Z",
-      "temperature_c": 11.0,
-      "tds": 532,
-      "turbidity_v": 1.3,
-      "ph": 7.6,
-      "lat": 26.94821,
-      "lon": -80.97311
+      "temperature_c": 21.5,
+      "tds": 216,
+      "turbidity_v": 3.7,
+      "ph": 8.2,
+      "lat": 26.86698,
+      "lon": -80.60609
     },
     {
       "timestamp": "2026-01-02T06:30:00Z",
-      "temperature_c": 25.9,
-      "tds": 996,
-      "turbidity_v": 7.9,
-      "ph": 6.9,
-      "lat": 26.80876,
-      "lon": -80.81977
+      "temperature_c": 9.8,
+      "tds": 256,
+      "turbidity_v": 5.2,
+      "ph": 8.6,
+      "lat": 26.75731,
+      "lon": -80.68193
     },
     {
       "timestamp": "2026-01-02T07:00:00Z",
-      "temperature_c": 12.4,
-      "tds": 918,
-      "turbidity_v": 7.1,
-      "ph": 9.8,
-      "lat": 26.91259,
-      "lon": -80.94007
+      "temperature_c": 13.3,
+      "tds": 862,
+      "turbidity_v": 6.0,
+      "ph": 8.9,
+      "lat": 26.89255,
+      "lon": -80.76182
     },
     {
       "timestamp": "2026-01-02T07:30:00Z",
-      "temperature_c": 19.0,
-      "tds": 475,
-      "turbidity_v": 8.7,
-      "ph": 8.1,
-      "lat": 26.86751,
-      "lon": -80.92708
+      "temperature_c": 27.9,
+      "tds": 421,
+      "turbidity_v": 5.4,
+      "ph": 8.5,
+      "lat": 26.83766,
+      "lon": -80.79531
     },
     {
       "timestamp": "2026-01-02T08:00:00Z",
-      "temperature_c": 23.6,
-      "tds": 411,
-      "turbidity_v": 0.5,
-      "ph": 8.0,
-      "lat": 26.92611,
-      "lon": -80.87479
+      "temperature_c": 7.1,
+      "tds": 907,
+      "turbidity_v": 3.3,
+      "ph": 8.9,
+      "lat": 26.86349,
+      "lon": -80.73165
     },
     {
       "timestamp": "2026-01-02T08:30:00Z",
-      "temperature_c": 23.9,
-      "tds": 207,
-      "turbidity_v": 3.1,
-      "ph": 8.3,
-      "lat": 26.80693,
-      "lon": -80.88208
+      "temperature_c": 8.4,
+      "tds": 895,
+      "turbidity_v": 2.4,
+      "ph": 8.9,
+      "lat": 26.87382,
+      "lon": -80.91908
     },
     {
       "timestamp": "2026-01-02T09:00:00Z",
-      "temperature_c": 9.5,
-      "tds": 343,
-      "turbidity_v": 7.3,
-      "ph": 8.3,
-      "lat": 26.95259,
-      "lon": -80.80863
+      "temperature_c": 29.3,
+      "tds": 254,
+      "turbidity_v": 7.8,
+      "ph": 9.9,
+      "lat": 26.97297,
+      "lon": -80.64939
     },
     {
       "timestamp": "2026-01-02T09:30:00Z",
-      "temperature_c": 18.5,
-      "tds": 160,
-      "turbidity_v": 1.8,
-      "ph": 7.8,
-      "lat": 26.86586,
-      "lon": -80.9436
+      "temperature_c": 29.3,
+      "tds": 249,
+      "turbidity_v": 0.9,
+      "ph": 8.1,
+      "lat": 26.94342,
+      "lon": -80.92943
     },
     {
       "timestamp": "2026-01-02T10:00:00Z",
-      "temperature_c": 10.1,
-      "tds": 112,
-      "turbidity_v": 7.1,
-      "ph": 8.1,
-      "lat": 26.94321,
-      "lon": -80.71768
+      "temperature_c": 6.5,
+      "tds": 516,
+      "turbidity_v": 0.9,
+      "ph": 8.0,
+      "lat": 26.9535,
+      "lon": -81.07441
     },
     {
       "timestamp": "2026-01-02T10:30:00Z",
-      "temperature_c": 24.2,
-      "tds": 628,
-      "turbidity_v": 10.0,
-      "ph": 9.9,
-      "lat": 26.85385,
-      "lon": -80.76533
+      "temperature_c": 11.8,
+      "tds": 145,
+      "turbidity_v": 3.4,
+      "ph": 9.0,
+      "lat": 26.84431,
+      "lon": -81.0017
     },
     {
       "timestamp": "2026-01-02T11:00:00Z",
-      "temperature_c": 10.7,
-      "tds": 726,
-      "turbidity_v": 7.7,
-      "ph": 7.6,
-      "lat": 26.75829,
-      "lon": -80.86782
+      "temperature_c": 24.5,
+      "tds": 722,
+      "turbidity_v": 6.8,
+      "ph": 7.9,
+      "lat": 26.98125,
+      "lon": -80.69803
     },
     {
       "timestamp": "2026-01-02T11:30:00Z",
-      "temperature_c": 27.5,
-      "tds": 263,
-      "turbidity_v": 8.1,
+      "temperature_c": 21.4,
+      "tds": 142,
+      "turbidity_v": 3.1,
       "ph": 6.6,
-      "lat": 26.86015,
-      "lon": -80.99218
+      "lat": 26.7533,
+      "lon": -80.94165
     },
     {
       "timestamp": "2026-01-02T12:00:00Z",
-      "temperature_c": 22.8,
-      "tds": 467,
-      "turbidity_v": 2.0,
-      "ph": 8.3,
-      "lat": 26.94601,
-      "lon": -80.79196
+      "temperature_c": 20.5,
+      "tds": 150,
+      "turbidity_v": 5.9,
+      "ph": 8.2,
+      "lat": 26.81883,
+      "lon": -81.06495
     },
     {
       "timestamp": "2026-01-02T12:30:00Z",
-      "temperature_c": 5.3,
-      "tds": 772,
-      "turbidity_v": 1.6,
-      "ph": 7.3,
-      "lat": 26.84868,
-      "lon": -80.70121
+      "temperature_c": 11.8,
+      "tds": 212,
+      "turbidity_v": 8.7,
+      "ph": 9.3,
+      "lat": 26.97407,
+      "lon": -80.71246
     },
     {
       "timestamp": "2026-01-02T13:00:00Z",
-      "temperature_c": 16.2,
-      "tds": 930,
+      "temperature_c": 21.8,
+      "tds": 582,
       "turbidity_v": 9.6,
-      "ph": 8.4,
-      "lat": 26.87652,
-      "lon": -80.86462
+      "ph": 7.3,
+      "lat": 26.89813,
+      "lon": -80.8314
     },
     {
       "timestamp": "2026-01-02T13:30:00Z",
-      "temperature_c": 17.4,
-      "tds": 565,
-      "turbidity_v": 4.8,
-      "ph": 9.2,
-      "lat": 26.88488,
-      "lon": -80.98505
+      "temperature_c": 20.0,
+      "tds": 542,
+      "turbidity_v": 6.0,
+      "ph": 9.7,
+      "lat": 26.97803,
+      "lon": -80.88673
     },
     {
       "timestamp": "2026-01-02T14:00:00Z",
-      "temperature_c": 5.8,
-      "tds": 217,
-      "turbidity_v": 8.1,
-      "ph": 7.7,
-      "lat": 26.90843,
-      "lon": -80.9638
+      "temperature_c": 16.4,
+      "tds": 164,
+      "turbidity_v": 1.6,
+      "ph": 8.4,
+      "lat": 26.822,
+      "lon": -80.64668
     },
     {
       "timestamp": "2026-01-02T14:30:00Z",
-      "temperature_c": 5.9,
-      "tds": 181,
-      "turbidity_v": 3.0,
-      "ph": 6.9,
-      "lat": 26.92072,
-      "lon": -80.92614
+      "temperature_c": 13.5,
+      "tds": 470,
+      "turbidity_v": 9.6,
+      "ph": 9.0,
+      "lat": 26.82271,
+      "lon": -80.68116
     },
     {
       "timestamp": "2026-01-02T15:00:00Z",
-      "temperature_c": 19.4,
-      "tds": 771,
-      "turbidity_v": 4.2,
-      "ph": 9.2,
-      "lat": 26.81189,
-      "lon": -80.79437
+      "temperature_c": 7.3,
+      "tds": 565,
+      "turbidity_v": 6.5,
+      "ph": 6.6,
+      "lat": 26.91482,
+      "lon": -81.04775
     },
     {
       "timestamp": "2026-01-02T15:30:00Z",
-      "temperature_c": 21.1,
-      "tds": 418,
-      "turbidity_v": 0.8,
-      "ph": 7.1,
-      "lat": 26.93339,
-      "lon": -80.76055
+      "temperature_c": 28.1,
+      "tds": 413,
+      "turbidity_v": 3.0,
+      "ph": 7.3,
+      "lat": 26.80233,
+      "lon": -80.82963
     },
     {
       "timestamp": "2026-01-02T16:00:00Z",
-      "temperature_c": 26.1,
-      "tds": 312,
-      "turbidity_v": 1.5,
-      "ph": 7.6,
-      "lat": 26.86579,
-      "lon": -80.86958
+      "temperature_c": 15.1,
+      "tds": 877,
+      "turbidity_v": 6.9,
+      "ph": 8.9,
+      "lat": 26.84429,
+      "lon": -80.85394
     },
     {
       "timestamp": "2026-01-02T16:30:00Z",
-      "temperature_c": 26.4,
-      "tds": 302,
-      "turbidity_v": 3.8,
-      "ph": 8.5,
-      "lat": 26.82842,
-      "lon": -80.85891
+      "temperature_c": 6.5,
+      "tds": 927,
+      "turbidity_v": 9.6,
+      "ph": 8.8,
+      "lat": 26.89427,
+      "lon": -80.92934
     },
     {
       "timestamp": "2026-01-02T17:00:00Z",
-      "temperature_c": 23.4,
-      "tds": 525,
-      "turbidity_v": 5.2,
-      "ph": 8.6,
-      "lat": 26.77268,
-      "lon": -80.71784
+      "temperature_c": 6.1,
+      "tds": 524,
+      "turbidity_v": 5.9,
+      "ph": 8.9,
+      "lat": 26.94681,
+      "lon": -81.08388
     },
     {
       "timestamp": "2026-01-02T17:30:00Z",
-      "temperature_c": 23.1,
-      "tds": 242,
-      "turbidity_v": 10.0,
-      "ph": 8.4,
-      "lat": 26.89071,
-      "lon": -80.7592
+      "temperature_c": 18.2,
+      "tds": 444,
+      "turbidity_v": 8.4,
+      "ph": 8.6,
+      "lat": 26.86034,
+      "lon": -80.64001
     },
     {
       "timestamp": "2026-01-02T18:00:00Z",
-      "temperature_c": 13.8,
-      "tds": 144,
-      "turbidity_v": 3.4,
+      "temperature_c": 15.5,
+      "tds": 449,
+      "turbidity_v": 5.4,
       "ph": 7.4,
-      "lat": 26.82881,
-      "lon": -80.73375
+      "lat": 26.82554,
+      "lon": -80.95189
     },
     {
       "timestamp": "2026-01-02T18:30:00Z",
-      "temperature_c": 8.0,
-      "tds": 655,
-      "turbidity_v": 7.9,
-      "ph": 8.9,
-      "lat": 26.83083,
-      "lon": -80.92862
+      "temperature_c": 18.2,
+      "tds": 694,
+      "turbidity_v": 2.9,
+      "ph": 7.5,
+      "lat": 26.75284,
+      "lon": -80.60543
     },
     {
       "timestamp": "2026-01-02T19:00:00Z",
-      "temperature_c": 26.7,
-      "tds": 753,
-      "turbidity_v": 0.7,
-      "ph": 7.1,
-      "lat": 26.94664,
-      "lon": -80.93449
+      "temperature_c": 23.4,
+      "tds": 128,
+      "turbidity_v": 0.9,
+      "ph": 7.0,
+      "lat": 26.75268,
+      "lon": -81.02023
     },
     {
       "timestamp": "2026-01-02T19:30:00Z",
-      "temperature_c": 12.7,
-      "tds": 138,
-      "turbidity_v": 5.3,
-      "ph": 8.7,
-      "lat": 26.82558,
-      "lon": -80.98303
+      "temperature_c": 9.6,
+      "tds": 214,
+      "turbidity_v": 2.6,
+      "ph": 7.0,
+      "lat": 26.8567,
+      "lon": -81.07221
     },
     {
       "timestamp": "2026-01-02T20:00:00Z",
-      "temperature_c": 9.2,
-      "tds": 235,
-      "turbidity_v": 4.5,
-      "ph": 7.8,
-      "lat": 26.76924,
-      "lon": -80.97508
+      "temperature_c": 20.6,
+      "tds": 867,
+      "turbidity_v": 3.3,
+      "ph": 8.7,
+      "lat": 26.91149,
+      "lon": -80.75907
     },
     {
       "timestamp": "2026-01-02T20:30:00Z",
-      "temperature_c": 13.7,
-      "tds": 617,
-      "turbidity_v": 7.0,
-      "ph": 8.5,
-      "lat": 26.88305,
-      "lon": -80.70499
+      "temperature_c": 28.2,
+      "tds": 344,
+      "turbidity_v": 0.8,
+      "ph": 8.0,
+      "lat": 26.86076,
+      "lon": -80.62115
     },
     {
       "timestamp": "2026-01-02T21:00:00Z",
-      "temperature_c": 21.2,
-      "tds": 753,
-      "turbidity_v": 6.4,
-      "ph": 9.0,
-      "lat": 26.85836,
-      "lon": -80.91606
+      "temperature_c": 14.6,
+      "tds": 668,
+      "turbidity_v": 9.3,
+      "ph": 8.4,
+      "lat": 26.78041,
+      "lon": -80.60333
     },
     {
       "timestamp": "2026-01-02T21:30:00Z",
-      "temperature_c": 28.9,
-      "tds": 192,
-      "turbidity_v": 7.7,
-      "ph": 7.4,
-      "lat": 26.76014,
-      "lon": -80.77216
+      "temperature_c": 22.6,
+      "tds": 924,
+      "turbidity_v": 0.8,
+      "ph": 7.5,
+      "lat": 26.76945,
+      "lon": -80.96877
     },
     {
       "timestamp": "2026-01-02T22:00:00Z",
-      "temperature_c": 18.1,
-      "tds": 318,
-      "turbidity_v": 8.8,
-      "ph": 7.6,
-      "lat": 26.95984,
-      "lon": -80.84085
+      "temperature_c": 6.5,
+      "tds": 800,
+      "turbidity_v": 6.2,
+      "ph": 8.3,
+      "lat": 26.91759,
+      "lon": -80.64574
     },
     {
       "timestamp": "2026-01-02T22:30:00Z",
-      "temperature_c": 27.0,
-      "tds": 501,
-      "turbidity_v": 5.4,
-      "ph": 7.5,
-      "lat": 26.94137,
-      "lon": -80.78189
+      "temperature_c": 15.7,
+      "tds": 233,
+      "turbidity_v": 7.4,
+      "ph": 6.8,
+      "lat": 26.96589,
+      "lon": -80.73744
     },
     {
       "timestamp": "2026-01-02T23:00:00Z",
-      "temperature_c": 16.9,
-      "tds": 498,
-      "turbidity_v": 3.1,
-      "ph": 9.8,
-      "lat": 26.89331,
-      "lon": -80.75934
+      "temperature_c": 15.9,
+      "tds": 731,
+      "turbidity_v": 6.0,
+      "ph": 9.6,
+      "lat": 26.90206,
+      "lon": -81.0651
     },
     {
       "timestamp": "2026-01-02T23:30:00Z",
-      "temperature_c": 12.5,
-      "tds": 115,
-      "turbidity_v": 6.7,
-      "ph": 8.3,
-      "lat": 26.93761,
-      "lon": -80.87076
+      "temperature_c": 19.1,
+      "tds": 790,
+      "turbidity_v": 4.2,
+      "ph": 9.2,
+      "lat": 26.85059,
+      "lon": -81.03866
     },
     {
       "timestamp": "2026-01-03T00:00:00Z",
-      "temperature_c": 8.6,
-      "tds": 939,
-      "turbidity_v": 9.3,
-      "ph": 9.9,
-      "lat": 26.78936,
-      "lon": -80.78564
+      "temperature_c": 22.8,
+      "tds": 221,
+      "turbidity_v": 3.7,
+      "ph": 7.3,
+      "lat": 26.93114,
+      "lon": -80.72271
     },
     {
       "timestamp": "2026-01-03T00:30:00Z",
-      "temperature_c": 22.9,
-      "tds": 428,
-      "turbidity_v": 3.9,
-      "ph": 9.7,
-      "lat": 26.8947,
-      "lon": -80.72244
+      "temperature_c": 8.1,
+      "tds": 859,
+      "turbidity_v": 0.6,
+      "ph": 9.1,
+      "lat": 26.86863,
+      "lon": -81.08006
     },
     {
       "timestamp": "2026-01-03T01:00:00Z",
-      "temperature_c": 14.8,
-      "tds": 579,
-      "turbidity_v": 9.1,
-      "ph": 9.3,
-      "lat": 26.78639,
-      "lon": -80.76169
+      "temperature_c": 18.9,
+      "tds": 417,
+      "turbidity_v": 8.4,
+      "ph": 7.9,
+      "lat": 26.88143,
+      "lon": -80.76303
     },
     {
       "timestamp": "2026-01-03T01:30:00Z",
-      "temperature_c": 7.6,
-      "tds": 289,
-      "turbidity_v": 4.5,
-      "ph": 7.8,
-      "lat": 26.962,
-      "lon": -80.82621
+      "temperature_c": 20.0,
+      "tds": 285,
+      "turbidity_v": 9.0,
+      "ph": 7.1,
+      "lat": 26.93926,
+      "lon": -81.03192
     }
   ]
 }
