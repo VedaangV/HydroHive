@@ -32,7 +32,7 @@ def git_push(commit_message):
     subprocess.run(["git", "commit", "-m", commit_message], cwd=REPO_PATH, check=True)
     subprocess.run(["git", "push"], cwd=REPO_PATH, check=True)
 
-    print("✅ Pushed to GitHub")
+    print("Pushed to GitHub")
 
 
 # ---------- JSON HELPERS ----------
